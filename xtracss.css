@@ -128,7 +128,7 @@
   .borde-t {border-top: 1px solid lightgray;}
   .ancho-90 {width: 90%; margin-left: auto; margin-right: auto;}
   .ancho-80 {width: 80%; margin-left: auto; margin-right: auto;}
-  hr.bordegris {border-top: 1px solid lightgray;}
+  .bordegris {border-top: 1px solid lightgray;}
 /* agrandador de fuentes */
   .x1   {font-size: 1rem;}
   .x1-5 {font-size: 1.5rem;}
