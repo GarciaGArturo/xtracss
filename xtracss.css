@@ -142,18 +142,21 @@
   .x5-5 {font-size: 5.5rem;}
   .x6   {font-size: 6rem;}
   .x6-5  {font-size: 6.5rem;}
-/* achicador de fuentes */
-  .x0-1 {font-size: 0.1rem;}
-  .x0-2 {font-size: 0.2rem;}
-  .x0-3 {font-size: 0.3rem;}
-  .x0-4 {font-size: 0.4rem;}
-  .x0-5 {font-size: 0.5rem;}
-  .x0-6 {font-size: 0.6rem;}
-  .x0-7 {font-size: 0.7rem;}
-  .x0-8 {font-size: 0.8rem;}
-  .x0-9 {font-size: 5.5rem;}
-  .x0-25 {font-size: 0.25rem;}
-  .x0-75 {font-size: 0.75rem;}
+/* achicador de fuentes en porcentaje */
+  .x0-1 {font-size: 10%;}
+  .x0-2 {font-size: 20%;}
+  .x0-3 {font-size: 30%;}
+  .x0-4 {font-size: 40%;}
+  .x0-5 {font-size: 50%;}
+  .x0-6 {font-size: 60%;}
+  .x0-7 {font-size: 70%;}
+  .x0-8 {font-size: 80%;}
+  .x0-9 {font-size: 90%;}
+  .x0-25 {font-size: 25%;}
+  .x0-75 {font-size: 75%;}
+  .x0-85 {font-size: 85%;}
+  .x0-95 {font-size: 95%;}
+  .x0-98 {font-size: 98%;}
 /* colores de letras y fondos */
   .texto-blanco {color: white;} .fondo-blanco {background-color: white;}
   .texto-negro {color: black;} .fondo-negro {background-color: black;}
@@ -174,7 +177,9 @@
   .texto-azul-metalico {color: steelblue;} .fondo-azul-metalico {background-color: steelblue;}
   .texto-azul-vibrante {color: #33C3F0;} .fondo-azul-vibrante {background-color: #33C3F0;}
   .texto-gris {color: gray;} .fondo-gris {background-color: gray;}
+  .texto-gris-claro {color: lightgray;} .fondo-gris-claro {background-color: lightgray;}
 /* estilos de letras */
- 
-
-/*  */
+  .texto-bold {font-weight: bold;}
+  .texto-italic {font-style: italic;}
+/* Cursores */
+  .cursor-default {cursor: default;}
