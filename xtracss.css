@@ -99,36 +99,36 @@
     .bv-spacer-200px { margin-bottom: 200px; }
 	/* doble espaciadores top & bottom aumenta 5px arriba y abajo por vez */
     /* doble vertical */
-    .dv-spacer-10 { margin-bottom: 10px; margin-top: 10px; clear: both; }
-    .dv-spacer-15 { margin-bottom: 15px; margin-top: 15px; clear: both; }
-    .dv-spacer-20 { margin-bottom: 20px; margin-top: 20px; clear: both; }
-    .dv-spacer-25 { margin-bottom: 25px; margin-top: 25px; clear: both; }
-    .dv-spacer-30 { margin-bottom: 30px; margin-top: 30px; clear: both; }
-    .dv-spacer-35 { margin-bottom: 35px; margin-top: 35px; clear: both; }
-    .dv-spacer-40 { margin-bottom: 40px; margin-top: 40px; clear: both; }
-    .dv-spacer-45 { margin-bottom: 45px; margin-top: 45px; clear: both; }
-    .dv-spacer-50 { margin-bottom: 50px; margin-top: 50px; clear: both; }
-    .dv-spacer-55 { margin-bottom: 55px; margin-top: 55px; clear: both; }
-    .dv-spacer-60 { margin-bottom: 60px; margin-top: 60px; clear: both; }
-    .dv-spacer-65 { margin-bottom: 65px; margin-top: 65px; clear: both; }
-    .dv-spacer-70 { margin-bottom: 70px; margin-top: 70px; clear: both; }
-    .dv-spacer-75 { margin-bottom: 75px; margin-top: 75px; clear: both; }
-    .dv-spacer-80 { margin-bottom: 80px; margin-top: 80px; clear: both; }
-    .dv-spacer-85 { margin-bottom: 85px; margin-top: 85px; clear: both; }
-    .dv-spacer-90 { margin-bottom: 90px; margin-top: 90px; clear: both; }
-    .dv-spacer-95 { margin-bottom: 95px; margin-top: 95px; clear: both; }
-    .dv-spacer-100 { margin-bottom: 100px; margin-top: 100px; clear: both; }
-    .dv-spacer-105 { margin-bottom: 105px; margin-top: 105px; clear: both; }
-    .dv-spacer-110 { margin-bottom: 110px; margin-top: 110px; clear: both; }
-    .dv-spacer-115 { margin-bottom: 115px; margin-top: 115px; clear: both; }
-    .dv-spacer-120 { margin-bottom: 120px; margin-top: 120px; clear: both; }
-    .dv-spacer-125 { margin-bottom: 125px; margin-top: 125px; clear: both; }
-    .dv-spacer-130 { margin-bottom: 130px; margin-top: 130px; clear: both; }
-    .dv-spacer-135 { margin-bottom: 135px; margin-top: 135px; clear: both; }
-    .dv-spacer-140 { margin-bottom: 140px; margin-top: 140px; clear: both; }
-    .dv-spacer-145 { margin-bottom: 145px; margin-top: 145px; clear: both; }
-    .dv-spacer-150 { margin-bottom: 150px; margin-top: 150px; clear: both; }
-    .dv-spacer-155 { margin-bottom: 155px; margin-top: 155px; clear: both; }
+    .dv-spacer-10px { margin-bottom: 10px; margin-top: 10px; clear: both; }
+    .dv-spacer-15px { margin-bottom: 15px; margin-top: 15px; clear: both; }
+    .dv-spacer-20px { margin-bottom: 20px; margin-top: 20px; clear: both; }
+    .dv-spacer-25px { margin-bottom: 25px; margin-top: 25px; clear: both; }
+    .dv-spacer-30px { margin-bottom: 30px; margin-top: 30px; clear: both; }
+    .dv-spacer-35px { margin-bottom: 35px; margin-top: 35px; clear: both; }
+    .dv-spacer-40px { margin-bottom: 40px; margin-top: 40px; clear: both; }
+    .dv-spacer-45px { margin-bottom: 45px; margin-top: 45px; clear: both; }
+    .dv-spacer-50px { margin-bottom: 50px; margin-top: 50px; clear: both; }
+    .dv-spacer-55px { margin-bottom: 55px; margin-top: 55px; clear: both; }
+    .dv-spacer-60px { margin-bottom: 60px; margin-top: 60px; clear: both; }
+    .dv-spacer-65px { margin-bottom: 65px; margin-top: 65px; clear: both; }
+    .dv-spacer-70px { margin-bottom: 70px; margin-top: 70px; clear: both; }
+    .dv-spacer-75px { margin-bottom: 75px; margin-top: 75px; clear: both; }
+    .dv-spacer-80px { margin-bottom: 80px; margin-top: 80px; clear: both; }
+    .dv-spacer-85px { margin-bottom: 85px; margin-top: 85px; clear: both; }
+    .dv-spacer-90px { margin-bottom: 90px; margin-top: 90px; clear: both; }
+    .dv-spacer-95px { margin-bottom: 95px; margin-top: 95px; clear: both; }
+    .dv-spacer-100px { margin-bottom: 100px; margin-top: 100px; clear: both; }
+    .dv-spacer-105px { margin-bottom: 105px; margin-top: 105px; clear: both; }
+    .dv-spacer-110px { margin-bottom: 110px; margin-top: 110px; clear: both; }
+    .dv-spacer-115px { margin-bottom: 115px; margin-top: 115px; clear: both; }
+    .dv-spacer-120px { margin-bottom: 120px; margin-top: 120px; clear: both; }
+    .dv-spacer-125px { margin-bottom: 125px; margin-top: 125px; clear: both; }
+    .dv-spacer-130px { margin-bottom: 130px; margin-top: 130px; clear: both; }
+    .dv-spacer-135px { margin-bottom: 135px; margin-top: 135px; clear: both; }
+    .dv-spacer-140px { margin-bottom: 140px; margin-top: 140px; clear: both; }
+    .dv-spacer-145px { margin-bottom: 145px; margin-top: 145px; clear: both; }
+    .dv-spacer-150px { margin-bottom: 150px; margin-top: 150px; clear: both; }
+    .dv-spacer-155px { margin-bottom: 155px; margin-top: 155px; clear: both; }
     
   /* horizontal espaciadores aumenta 5px izquierda cada vez */
     /* left horizontal */
