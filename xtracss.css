@@ -1,7 +1,9 @@
 /* Fuentes */
   @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i');
+  @import url('https://fonts.googleapis.com/css?family=Raleway');
   .letra-open-sans {font-family: 'Open Sans', sans-serif;}
   .letra-courgette {font-family: "Courgette", "Raleway", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;}
+  .letra-raleway {font-family: "Raleway", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;}
   .blanco-sombra { color: white; text-shadow: -0.1em 0.1em 0.1em #000; }
 
 /* Utilidades de desarrollo */
@@ -12,7 +14,7 @@
   #preload {display: none; visibility:hidden}
 /* Curiosidades */
   .revText { unicode-bidi:bidi-override; direction: rtl; } /* Voltear letras */
-  /* Espaciadores */
+/* Espaciadores */
   /* espaciadores top aumenta margen arriba lo indicado en pixeles de 5 en 5 */
     /* top vertical px */
     .tv-spacer-10px { margin-top: 10px; }
@@ -95,13 +97,39 @@
     .bv-spacer-190px { margin-bottom: 190px; }
     .bv-spacer-195px { margin-bottom: 195px; }
     .bv-spacer-200px { margin-bottom: 200px; }
-	/* doble espaciadores top & bottom aumenta 25px arriba y abajo por vez */
+	/* doble espaciadores top & bottom aumenta 5px arriba y abajo por vez */
     /* doble vertical */
-    .dv-spacer { margin-bottom: 25px; margin-top: 25px; clear: both; }
-    .dv-spacer-x2 { margin-bottom: 50px; margin-top: 50px; clear: both; }
-    .dv-spacer-x3 { margin-bottom: 75px; margin-top: 75px; clear: both; }
-    .dv-spacer-x4 { margin-bottom: 100px; margin-top: 100px; clear: both; }
-    .dv-spacer-x5 { margin-bottom: 125px; margin-top: 125px; clear: both; }
+    .dv-spacer-10 { margin-bottom: 10px; margin-top: 10px; clear: both; }
+    .dv-spacer-15 { margin-bottom: 15px; margin-top: 15px; clear: both; }
+    .dv-spacer-20 { margin-bottom: 20px; margin-top: 20px; clear: both; }
+    .dv-spacer-25 { margin-bottom: 25px; margin-top: 25px; clear: both; }
+    .dv-spacer-30 { margin-bottom: 30px; margin-top: 30px; clear: both; }
+    .dv-spacer-35 { margin-bottom: 35px; margin-top: 35px; clear: both; }
+    .dv-spacer-40 { margin-bottom: 40px; margin-top: 40px; clear: both; }
+    .dv-spacer-45 { margin-bottom: 45px; margin-top: 45px; clear: both; }
+    .dv-spacer-50 { margin-bottom: 50px; margin-top: 50px; clear: both; }
+    .dv-spacer-55 { margin-bottom: 55px; margin-top: 55px; clear: both; }
+    .dv-spacer-60 { margin-bottom: 60px; margin-top: 60px; clear: both; }
+    .dv-spacer-65 { margin-bottom: 65px; margin-top: 65px; clear: both; }
+    .dv-spacer-70 { margin-bottom: 70px; margin-top: 70px; clear: both; }
+    .dv-spacer-75 { margin-bottom: 75px; margin-top: 75px; clear: both; }
+    .dv-spacer-80 { margin-bottom: 80px; margin-top: 80px; clear: both; }
+    .dv-spacer-85 { margin-bottom: 85px; margin-top: 85px; clear: both; }
+    .dv-spacer-90 { margin-bottom: 90px; margin-top: 90px; clear: both; }
+    .dv-spacer-95 { margin-bottom: 95px; margin-top: 95px; clear: both; }
+    .dv-spacer-100 { margin-bottom: 100px; margin-top: 100px; clear: both; }
+    .dv-spacer-105 { margin-bottom: 105px; margin-top: 105px; clear: both; }
+    .dv-spacer-110 { margin-bottom: 110px; margin-top: 110px; clear: both; }
+    .dv-spacer-115 { margin-bottom: 115px; margin-top: 115px; clear: both; }
+    .dv-spacer-120 { margin-bottom: 120px; margin-top: 120px; clear: both; }
+    .dv-spacer-125 { margin-bottom: 125px; margin-top: 125px; clear: both; }
+    .dv-spacer-130 { margin-bottom: 130px; margin-top: 130px; clear: both; }
+    .dv-spacer-135 { margin-bottom: 135px; margin-top: 135px; clear: both; }
+    .dv-spacer-140 { margin-bottom: 140px; margin-top: 140px; clear: both; }
+    .dv-spacer-145 { margin-bottom: 145px; margin-top: 145px; clear: both; }
+    .dv-spacer-150 { margin-bottom: 150px; margin-top: 150px; clear: both; }
+    .dv-spacer-155 { margin-bottom: 155px; margin-top: 155px; clear: both; }
+    
   /* horizontal espaciadores aumenta 5px izquierda cada vez */
     /* left horizontal */
     .lh-spacer { margin-left: 5%;}
@@ -124,11 +152,11 @@
     .dh-spacer-x4 { margin-left: 20%; margin-right: 20%; }
     .d-hspacer-x5 { margin-left: 25%; margin-right: 25%; }
 /* Bordes */
-  /* bordes */
-  .borde-t {border-top: 1px solid lightgray;}
+  /* bordes superior */
+  .brd-t-gris {border-top: 1px solid lightgray;}
+/* ancho */
   .ancho-90 {width: 90%; margin-left: auto; margin-right: auto;}
-  .ancho-80 {width: 80%; margin-left: auto; margin-right: auto;}
-  .bordegris {border-top: 1px solid lightgray;}
+  .ancho-80 {width: 80%;}
 /* agrandador de fuentes */
   .x1   {font-size: 1rem;}
   .x1-5 {font-size: 1.5rem;}
@@ -183,3 +211,171 @@
   .texto-italic {font-style: italic;}
 /* Cursores */
   .cursor-default {cursor: default;}
+/* espaciadores top aumenta margen arriba lo indicado en pixeles de 5 en 5 */
+  /* top vertical px */
+  .tv-padder-5px { padding-top: 5px; }
+  .tv-padder-10px { padding-top: 10px; }
+  .tv-padder-15px { padding-top: 15px; }
+  .tv-padder-20px { padding-top: 20px; }
+  .tv-padder-25px { padding-top: 25px; }
+  .tv-padder-30px { padding-top: 30px; }
+  .tv-padder-35px { padding-top: 35px; }
+  .tv-padder-40px { padding-top: 40px; }
+  .tv-padder-45px { padding-top: 45px; }
+  .tv-padder-50px { padding-top: 50px; }
+  .tv-padder-55px { padding-top: 55px; }
+  .tv-padder-60px { padding-top: 60px; }
+  .tv-padder-65px { padding-top: 65px; }
+  .tv-padder-70px { padding-top: 70px; }
+  .tv-padder-75px { padding-top: 75px; }
+  .tv-padder-80px { padding-top: 80px; }
+  .tv-padder-85px { padding-top: 85px; }
+  .tv-padder-90px { padding-top: 90px; }
+  .tv-padder-95px { padding-top: 95px; }
+  .tv-padder-100px { padding-top: 100px; }
+  .tv-padder-105px { padding-top: 105px; }
+  .tv-padder-110px { padding-top: 110px; }
+  .tv-padder-115px { padding-top: 115px; }
+  .tv-padder-120px { padding-top: 120px; }
+  .tv-padder-125px { padding-top: 125px; }
+  .tv-padder-130px { padding-top: 130px; }
+  .tv-padder-135px { padding-top: 135px; }
+  .tv-padder-140px { padding-top: 140px; }
+  .tv-padder-145px { padding-top: 145px; }
+  .tv-padder-150px { padding-top: 150px; }
+  .tv-padder-155px { padding-top: 155px; }
+  .tv-padder-160px { padding-top: 160px; }
+  .tv-padder-165px { padding-top: 165px; }
+  .tv-padder-170px { padding-top: 170px; }
+  .tv-padder-175px { padding-top: 175px; }
+  .tv-padder-180px { padding-top: 180px; }
+  .tv-padder-185px { padding-top: 185px; }
+  .tv-padder-190px { padding-top: 190px; }
+  .tv-padder-195px { padding-top: 195px; }
+  .tv-padder-200px { padding-top: 200px; }
+/* espaciadores bottom aumenta margen abajo lo indicado en pixeles de 5 en 5 */
+  /* bottom vertical px */
+  .bv-padder-5px { padding-bottom: 5px; }
+  .bv-padder-10px { padding-bottom: 10px; }
+  .bv-padder-15px { padding-bottom: 15px; }
+  .bv-padder-20px { padding-bottom: 20px; }
+  .bv-padder-25px { padding-bottom: 25px; }
+  .bv-padder-30px { padding-bottom: 30px; }
+  .bv-padder-35px { padding-bottom: 35px; }
+  .bv-padder-40px { padding-bottom: 40px; }
+  .bv-padder-45px { padding-bottom: 45px; }
+  .bv-padder-50px { padding-bottom: 50px; }
+  .bv-padder-55px { padding-bottom: 55px; }
+  .bv-padder-60px { padding-bottom: 60px; }
+  .bv-padder-65px { padding-bottom: 65px; }
+  .bv-padder-70px { padding-bottom: 70px; }
+  .bv-padder-75px { padding-bottom: 75px; }
+  .bv-padder-80px { padding-bottom: 80px; }
+  .bv-padder-85px { padding-bottom: 85px; }
+  .bv-padder-90px { padding-bottom: 90px; }
+  .bv-padder-95px { padding-bottom: 95px; }
+  .bv-padder-100px { padding-bottom: 100px; }
+  .bv-padder-105px { padding-bottom: 105px; }
+  .bv-padder-110px { padding-bottom: 110px; }
+  .bv-padder-115px { padding-bottom: 115px; }
+  .bv-padder-120px { padding-bottom: 120px; }
+  .bv-padder-125px { padding-bottom: 125px; }
+  .bv-padder-130px { padding-bottom: 130px; }
+  .bv-padder-135px { padding-bottom: 135px; }
+  .bv-padder-140px { padding-bottom: 140px; }
+  .bv-padder-145px { padding-bottom: 145px; }
+  .bv-padder-150px { padding-bottom: 150px; }
+  .bv-padder-155px { padding-bottom: 155px; }
+  .bv-padder-160px { padding-bottom: 160px; }
+  .bv-padder-165px { padding-bottom: 165px; }
+  .bv-padder-170px { padding-bottom: 170px; }
+  .bv-padder-175px { padding-bottom: 175px; }
+  .bv-padder-180px { padding-bottom: 180px; }
+  .bv-padder-185px { padding-bottom: 185px; }
+  .bv-padder-190px { padding-bottom: 190px; }
+  .bv-padder-195px { padding-bottom: 195px; }
+  .bv-padder-200px { padding-bottom: 200px; }
+/* espaciadores left aumenta padding izquierda lo indicado en pixeles de 5 en 5 */
+  /* izquierda horizontal px */
+  .lh-padder-5px { padding-left: 5px; }
+  .lh-padder-10px { padding-left: 10px; }
+  .lh-padder-15px { padding-left: 15px; }
+  .lh-padder-20px { padding-left: 20px; }
+  .lh-padder-25px { padding-left: 25px; }
+  .lh-padder-30px { padding-left: 30px; }
+  .lh-padder-35px { padding-left: 35px; }
+  .lh-padder-40px { padding-left: 40px; }
+  .lh-padder-45px { padding-left: 45px; }
+  .lh-padder-50px { padding-left: 50px; }
+  .lh-padder-55px { padding-left: 55px; }
+  .lh-padder-60px { padding-left: 60px; }
+  .lh-padder-65px { padding-left: 65px; }
+  .lh-padder-70px { padding-left: 70px; }
+  .lh-padder-75px { padding-left: 75px; }
+  .lh-padder-80px { padding-left: 80px; }
+  .lh-padder-85px { padding-left: 85px; }
+  .lh-padder-90px { padding-left: 90px; }
+  .lh-padder-95px { padding-left: 95px; }
+  .lh-padder-100px { padding-left: 100px; }
+  .lh-padder-105px { padding-left: 105px; }
+  .lh-padder-110px { padding-left: 110px; }
+  .lh-padder-115px { padding-left: 115px; }
+  .lh-padder-120px { padding-left: 120px; }
+  .lh-padder-125px { padding-left: 125px; }
+  .lh-padder-130px { padding-left: 130px; }
+  .lh-padder-135px { padding-left: 135px; }
+  .lh-padder-140px { padding-left: 140px; }
+  .lh-padder-145px { padding-left: 145px; }
+  .lh-padder-150px { padding-left: 150px; }
+  .lh-padder-155px { padding-left: 155px; }
+  .lh-padder-160px { padding-left: 160px; }
+  .lh-padder-165px { padding-left: 165px; }
+  .lh-padder-170px { padding-left: 170px; }
+  .lh-padder-175px { padding-left: 175px; }
+  .lh-padder-180px { padding-left: 180px; }
+  .lh-padder-185px { padding-left: 185px; }
+  .lh-padder-190px { padding-left: 190px; }
+  .lh-padder-195px { padding-left: 195px; }
+  .lh-padder-200px { padding-left: 200px; }
+/* espaciadores right aumenta padding a la derecha lo indicado en pixeles de 5 en 5 */
+  /* right horizontal px */
+  .rh-padder-5px { padding-right: 5px; }
+  .rh-padder-10px { padding-right: 10px; }
+  .rh-padder-15px { padding-right: 15px; }
+  .rh-padder-20px { padding-right: 20px; }
+  .rh-padder-25px { padding-right: 25px; }
+  .rh-padder-30px { padding-right: 30px; }
+  .rh-padder-35px { padding-right: 35px; }
+  .rh-padder-40px { padding-right: 40px; }
+  .rh-padder-45px { padding-right: 45px; }
+  .rh-padder-50px { padding-right: 50px; }
+  .rh-padder-55px { padding-right: 55px; }
+  .rh-padder-60px { padding-right: 60px; }
+  .rh-padder-65px { padding-right: 65px; }
+  .rh-padder-70px { padding-right: 70px; }
+  .rh-padder-75px { padding-right: 75px; }
+  .rh-padder-80px { padding-right: 80px; }
+  .rh-padder-85px { padding-right: 85px; }
+  .rh-padder-90px { padding-right: 90px; }
+  .rh-padder-95px { padding-right: 95px; }
+  .rh-padder-100px { padding-right: 100px; }
+  .rh-padder-105px { padding-right: 105px; }
+  .rh-padder-110px { padding-right: 110px; }
+  .rh-padder-115px { padding-right: 115px; }
+  .rh-padder-120px { padding-right: 120px; }
+  .rh-padder-125px { padding-right: 125px; }
+  .rh-padder-130px { padding-right: 130px; }
+  .rh-padder-135px { padding-right: 135px; }
+  .rh-padder-140px { padding-right: 140px; }
+  .rh-padder-145px { padding-right: 145px; }
+  .rh-padder-150px { padding-right: 150px; }
+  .rh-padder-155px { padding-right: 155px; }
+  .rh-padder-160px { padding-right: 160px; }
+  .rh-padder-165px { padding-right: 165px; }
+  .rh-padder-170px { padding-right: 170px; }
+  .rh-padder-175px { padding-right: 175px; }
+  .rh-padder-180px { padding-right: 180px; }
+  .rh-padder-185px { padding-right: 185px; }
+  .rh-padder-190px { padding-right: 190px; }
+  .rh-padder-195px { padding-right: 195px; }
+  .rh-padder-200px { padding-right: 200px; }
