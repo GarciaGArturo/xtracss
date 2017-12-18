@@ -9,7 +9,8 @@
 /* Utilidades de desarrollo */
   .margen {border: 1px dashed red;} 	/*margen al rededor */
   .on {display: inline;} 	/* enciende */
-  .off {display: none;} 	/* apaga */
+  .off {display: none ! important; visibility:hidden} 	/* apaga */
+  .px1x1 {width: 1px ! important; height: 1px ! important;}
 /* Precarga de imágenes */
   #preload {display: none; visibility:hidden}
 /* Curiosidades */
