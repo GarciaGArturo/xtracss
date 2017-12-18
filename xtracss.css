@@ -210,6 +210,14 @@
 /* estilos de letras */
   .texto-bold {font-weight: bold;}
   .texto-italic {font-style: italic;}
+  .code-xtracss{
+    font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+    padding: 2px 4px;
+    font-size: 100%;
+    color: inherit;
+    background-color: inherit;
+    border-radius: 4px;
+    }
 /* Cursores */
   .cursor-default {cursor: default;}
 /* espaciadores top aumenta margen arriba lo indicado en pixeles de 5 en 5 */
