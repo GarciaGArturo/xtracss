@@ -218,6 +218,15 @@
     background-color: inherit;
     border-radius: 4px;
     }
+    .texto-margen-default {
+      border: 1px solid gray;
+      padding: 5px;
+      margin-left: 4px;
+      margin-right: 4px;
+    }
+    .texto-contiuno {
+      white-space: nowrap;
+    }
 /* Cursores */
   .cursor-default {cursor: default;}
 /* espaciadores top aumenta margen arriba lo indicado en pixeles de 5 en 5 */
