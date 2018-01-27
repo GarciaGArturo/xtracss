@@ -218,9 +218,10 @@
     }
     .texto-margen-default {
       border: 1px solid gray;
-      padding: 5px;
+      padding: 3px 8px;
       margin-left: 4px;
       margin-right: 4px;
+      border-radius: 5px;
     }
     .texto-contiuno {
       white-space: nowrap;
