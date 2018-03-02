@@ -158,34 +158,65 @@
 /* ancho */
   .ancho-90 {width: 90%; margin-left: auto; margin-right: auto;}
   .ancho-80 {width: 80%;}
-/* agrandador de fuentes */
-  .x1   {font-size: 1rem;}
-  .x1-5 {font-size: 1.5rem;}
-  .x2   {font-size: 2rem;}
-  .x2-5 {font-size: 2.5rem;}
-  .x3   {font-size: 3rem;}
-  .x3-5 {font-size: 3.5rem;}
-  .x4   {font-size: 4rem;}
-  .x4-5 {font-size: 4.5rem;}
-  .x5   {font-size: 5rem;}
-  .x5-5 {font-size: 5.5rem;}
-  .x6   {font-size: 6rem;}
-  .x6-5  {font-size: 6.5rem;}
-/* achicador de fuentes en porcentaje */
-  .x0-1 {font-size: 10%;}
-  .x0-2 {font-size: 20%;}
-  .x0-3 {font-size: 30%;}
-  .x0-4 {font-size: 40%;}
-  .x0-5 {font-size: 50%;}
-  .x0-6 {font-size: 60%;}
-  .x0-7 {font-size: 70%;}
-  .x0-8 {font-size: 80%;}
-  .x0-9 {font-size: 90%;}
-  .x0-25 {font-size: 25%;}
-  .x0-75 {font-size: 75%;}
-  .x0-85 {font-size: 85%;}
-  .x0-95 {font-size: 95%;}
-  .x0-98 {font-size: 98%;}
+  
+/*Tamaño de fuente*/
+  /* agrandador de fuentes */
+  .x1     { font-size: 1rem; }
+  .x1-25  { font-size: 1.25rem; }
+  .x1-5   { font-size: 1.5rem; }
+  .x1-75  { font-size: 1.75rem; }
+  .x2     { font-size: 2rem; }
+  .x2-25  { font-size: 2.25rem; }
+  .x2-5   { font-size: 2.5rem; }
+  .x2-75  { font-size: 2.75rem; }
+  .x3     { font-size: 3rem; }
+  .x3-25  { font-size: 3.25rem; }
+  .x3-5   { font-size: 3.5rem; }
+  .x3-75  { font-size: 3.75rem; }
+  .x4     { font-size: 4rem; }
+  .x4-25  { font-size: 4.25rem; }
+  .x4-5   { font-size: 4.5rem; }
+  .x4-75  { font-size: 4.75rem; }
+  .x5     { font-size: 5rem; }
+  .x5-25  { font-size: 5.25rem; }
+  .x5-5   { font-size: 5.5rem; }
+  .x5-75  { font-size: 5.75rem; }
+  .x6     { font-size: 6rem; }
+  .x6-25  { font-size: 6.25rem; }
+  .x6-5   { font-size: 6.5rem; }
+  .x6-75  { font-size: 6.75rem; }
+  .x7     { font-size: 7rem; }
+  .x7-25  { font-size: 7.25rem; }
+  .x7-5   { font-size: 7.5rem; }
+  .x7-75  { font-size: 7.75rem; }
+  .x8     { font-size: 8rem; }
+  .x8-25  { font-size: 8.25rem; }
+  .x8-5   { font-size: 8.5rem; }
+  .x8-75  { font-size: 8.75rem; }
+  .x9     { font-size: 9rem; }
+  .x9-25  { font-size: 9.25rem; }
+  .x9-5   { font-size: 9.5rem; }
+  .x9-75  { font-size: 9.75rem; }
+  /* achicador de fuentes en porcentaje */
+  .x0-1   { font-size: 0.1rem; }
+  .x0-15  { font-size: 0.15rem; }
+  .x0-2   { font-size: 0.2rem; }
+  .x0-25  { font-size: 0.25rem; }
+  .x0-3   { font-size: 0.3rem; }
+  .x0-35  { font-size: 0.35rem; }
+  .x0-4   { font-size: 0.4rem; }
+  .x0-45  { font-size: 0.45rem; }
+  .x0-5   { font-size: 0.5rem; }
+  .x0-55  { font-size: 0.55rem; }
+  .x0-6   { font-size: 0.6rem; }
+  .x0-65  { font-size: 0.65rem; }
+  .x0-7   { font-size: 0.7rem; }
+  .x0-75  { font-size: 0.75rem; }
+  .x0-8   { font-size: 0.8rem; }
+  .x0-85  { font-size: 0.85rem; }
+  .x0-9   { font-size: 0.9rem; }
+  .x0-95  { font-size: 0.95rem; }
+
 /* colores de letras y fondos */
   .texto-blanco {color: white;} .fondo-blanco {background-color: white;}
   .texto-negro {color: black;} .fondo-negro {background-color: black;}
