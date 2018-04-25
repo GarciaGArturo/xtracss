@@ -691,8 +691,8 @@
   }
   
   /*básicas*/
-  .box-shadow-sm { box-shadow: 0 0.125rem 0.75rem rgba(0, 0, 0, 0.175); }
-  .box-shadow-xx { box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); }
+  .box-shadow-xs { box-shadow: 0 0.125rem 0.75rem rgba(0, 0, 0, 0.175); }
+  .box-shadow-sm { box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); }
   .box-shadow-md { box-shadow: 0 0.75rem 1rem rgba(0, 0, 0, 0.25); }
   .box-shadow-lg { box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.35); }
   .box-shadow-xl { box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.75); }
